@@ -1,11 +1,15 @@
 # Problem Statement Analysis
-## 1. Found Keywords
-- 
+## 1. Key points
+- Input
+
+- Output
+
+- Example
 
 ## 2. Questions on Problem Statement
 - 
 
-## 3. Examples for Problem Statement
+## 3. Test Examples
 - 
 
 ---
@@ -14,10 +18,11 @@
 ## 1. Assumptions
 - 
 
-## 2. Tests
-- 
+## 2. Approach
+1. 
+1. 
 
-## 3. Brute Force Solution
+## 3. First Solution (Probably, brute force)
 - 
 ```
 ```

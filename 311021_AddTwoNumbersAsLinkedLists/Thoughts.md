@@ -1,5 +1,5 @@
 # Problem Statement Analysis
-## 1. Found Keywords
+## 1. Key points
 - Input
     - 2 linked lists = 2 non-negative integers
     - each node holds a single digit
@@ -14,7 +14,6 @@
         - n1 : (2 -> 4 -> 3) 
         - n2 : (5 -> 6 -> 4)
         - sum: (7 -> 0 -> 8)
-        
 
 ## 2. Questions on Problem Statement
 - Should carry over addition be handled?
@@ -58,7 +57,7 @@
 1. Get the digit of sum by modulo with 10 `sumDigit = sum % 10`
 1. Move to the next digits with `l1.next` and `l2.next`
 
-## 3. Brute Force Solution
+## 3. First Solution (Probably, brute force)
 - With recursion
 ```
 def addTwoNumbers(self, num1, num2, carry = 0):
@@ -92,7 +91,15 @@ def addTwoNumbers(self, num1, num2, carry = 0):
 ```
 
 ### Complexity - Time & Space
-- 
+- Time complexity : `O(n + m)`
+    - `n` is the number of digits in `num1`
+    - `m` is the number of digits in `num2`
+    - Every digit is parsed only once and hence complexity is `O(n + m)`
+- Space complexity : `O(n + m + x)`
+    - `n` is the number of digits in `num1`
+    - `m` is the number of digits in `num2`
+    - `x` is the number of digits in `sum`
+    - Due to recursion, memory adds up for each recursive call
 
 ## 4. Optimized Solution
 - 
