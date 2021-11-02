@@ -1,0 +1,12 @@
+# [Daily Problem] Longest Substring Without Repeating Characters
+Given a string, find the length of the longest substring without repeating characters.
+
+Here is an example solution in Python language.
+```
+class Solution:
+  def lengthOfLongestSubstring(self, s):
+    # Fill this in.
+print Solution().lengthOfLongestSubstring('abrkaabcdefghijjxxx')
+# 10
+```
+Can you find a solution in linear time?
