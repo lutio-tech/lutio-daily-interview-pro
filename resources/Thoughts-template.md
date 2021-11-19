@@ -1,39 +1,35 @@
 # Problem Statement Analysis
 ## 1. Key points
 - Input
-
+    - 
 - Output
-
+    - 
 - Example
-
-## 2. Questions on Problem Statement
+    - 
+## 2. Questions to validate assumptions
 - 
 
-## 3. Test Examples
+## 3. Test cases (with edge cases)
 - 
-
 ---
 
 # Solution Design
-## 1. Assumptions
-- 
-
-## 2. Approach
+## Approach#1 (Possibly, brute force)
 1. 
 1. 
 
-## 3. First Solution (Probably, brute force)
-- 
-```
-```
+### Complexity - Time & Space
+- Time complexity : 
+    - 
+- Space complexity: 
+    - 
+
+## Approach#2
+1. 
+1. 
 
 ### Complexity - Time & Space
-- 
-
-## 4. Optimized Solution
-- 
-```
-```
-
-### Complexity - Time & Space
-- 
+- Time complexity : 
+    - 
+- Space complexity: 
+    - 
